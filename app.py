@@ -4,7 +4,7 @@ import urllib.parse
 import numpy as np
 
 
-st.set_page_config(page_title="MLB Run Predictor", layout="wide")
+st.set_page_config(page_title="MLB All Stats Predictor", layout="wide")
 params = st.query_params
 
 # ✅ Safely decode and store once
