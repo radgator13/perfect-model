@@ -11,6 +11,7 @@ steps = [
     ("✅ DONE! Now run: streamlit run app.py", None),
 ]
 
+# Run pipeline steps
 for label, script in steps:
     print(f"\n=== {label} ===")
     if script:
@@ -18,3 +19,22 @@ for label, script in steps:
         if result.returncode != 0:
             print(f"❌ Error in {script}. Halting pipeline.")
             break
+else:
+    # All steps completed successfully
+    print("\n🚀 All steps completed successfully. Committing and pushing to GitHub...")
+
+    subprocess.run(["git", "add", "."])
+    commit = subprocess.run(
+        ["git", "commit", "-m", "🔄 Auto-update: latest predictions and backfills"],
+        capture_output=True,
+        text=True
+    )
+
+    if "nothing to commit" not in commit.stdout:
+        push = subprocess.run(["git", "push", "origin", "main"])
+        if push.returncode == 0:
+            print("✅ Pushed to GitHub successfully.")
+        else:
+            print("⚠️ Git push failed. Check your authentication or remote settings.")
+    else:
+        print("✅ No changes to commit. Git push skipped.")
