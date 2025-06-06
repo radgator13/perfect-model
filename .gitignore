@@ -45,8 +45,7 @@ coverage.xml
 # Logs and debugging
 *.log
 
-# Output files
-outputs/
+
 
 # IDE settings
 .vscode/
