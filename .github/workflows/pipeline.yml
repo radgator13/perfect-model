@@ -1,0 +1,36 @@
+name: Run MLB Pipeline
+
+on:
+  schedule:
+    - cron: '0 4,7,14,16 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🚀 Run pipeline
+        run: python pipeline.py
+
+      - name: 🔄 Commit outputs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add outputs/
+          git commit -m "🔄 Auto-update: latest predictions" || echo "No changes"
+          git push
+
