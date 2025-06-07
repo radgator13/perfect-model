@@ -1,20 +1,5 @@
 date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_id
-2025-06-06,MIA,TB,Edward Cabrera,Zack Littell,40944,36052
-2025-06-06,PHI,PIT,Joe Ross,Bailey Falter,32684,4705677
-2025-06-06,TEX,WSH,Patrick Corbin,Michael Soroka,31313,34984
-2025-06-06,BOS,NYY,Walker Buehler,Will Warren,39251,5132011
-2025-06-06,ARI,CIN,Eduardo Rodriguez,Nick Lodolo,32675,42433
-2025-06-06,CHC,DET,Ben Brown,Tarik Skubal,41516,42409
-2025-06-06,HOU,CLE,Colton Gordon,Logan Allen,5133837,4683350
-2025-06-06,KC,CHW,Seth Lugo,Davis Martin,34873,42823
-2025-06-06,SD,MIL,Randy Vasquez,Chad Patrick,4722847,5131708
-2025-06-06,TOR,MIN,Undecided,Bailey Ober,,3107919
-2025-06-06,LAD,STL,Justin Wrobleski,Sonny Gray,4417203,32082
-2025-06-06,NYM,COL,Kodai Senga,Antonio Senzatela,4142421,33750
-2025-06-06,SEA,LAA,Bryce Miller,Kyle Hendricks,4654313,33173
-2025-06-06,BAL,ATH,Dean Kremer,JP Sears,38295,39818
-2025-06-06,ATL,SF,Spencer Schwellenbach,Hayden Birdsong,4424862,5197166
-2025-06-07,CHC,DET,Jameson Taillon,Keider Montero,31258,5182933
+2025-06-07,CHC,DET,Jameson Taillon,Tyler Holton,31258,3983833
 2025-06-07,TOR,MIN,Kevin Gausman,Chris Paddack,32667,35999
 2025-06-07,LAD,STL,Yoshinobu Yamamoto,Erick Fedde,4872587,33793
 2025-06-07,PHI,PIT,Ranger Suarez,Andrew Heaney,39817,32672
@@ -32,15 +17,24 @@ date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_
 2025-06-08,MIA,TB,Sandy Alcantara,Drew Rasmussen,35241,42584
 2025-06-08,SD,MIL,Ryan Bergert,Aaron Civale,5196249,40934
 2025-06-08,PHI,PIT,Cristopher Sanchez,Paul Skenes,42359,4719507
-2025-06-08,TEX,WSH,Tyler Mahle,Trevor Williams,34973,33305
+2025-06-08,TEX,WSH,Undecided,Trevor Williams,,33305
 2025-06-08,ARI,CIN,Zac Gallen,Brady Singer,39910,41172
 2025-06-08,CHC,DET,Cade Horton,Jack Flaherty,4692526,33837
-2025-06-08,HOU,CLE,Lance McCullers Jr.,Tanner Bibee,32764,4345278
-2025-06-08,KC,CHW,Kris Bubic,Shane Smith,41201,5201814
+2025-06-08,HOU,CLE,Undecided,Tanner Bibee,,4345278
+2025-06-08,KC,CHW,Michael Lorenzen,Undecided,33252,
 2025-06-08,TOR,MIN,Bowden Francis,Joe Ryan,4734325,42450
-2025-06-08,LAD,STL,Dustin May,Undecided,40937,
+2025-06-08,LAD,STL,Clayton Kershaw,Undecided,28963,
 2025-06-08,NYM,COL,Tylor Megill,German Marquez,3332018,34874
 2025-06-08,ATL,SF,Spencer Strider,Landen Roupp,4307825,4345404
 2025-06-08,BAL,ATH,Tomoyuki Sugano,Undecided,4142423,
 2025-06-08,SEA,LAA,George Kirby,Tyler Anderson,42406,32151
 2025-06-08,BOS,NYY,Hunter Dobbins,Carlos Rodon,4415836,33696
+2025-06-09,CIN,CLE,Wade Miley,Luis Ortiz,,5101355
+2025-06-09,MIA,PIT,Eury Perez,Mike Burrows,,4918155
+2025-06-09,CHC,PHI,Matthew Boyd,Undecided,34401,
+2025-06-09,TB,BOS,Shane Baz,Brayan Bello,39639,4720856
+2025-06-09,ATL,MIL,Chris Sale,Freddy Peralta,30948,39825
+2025-06-09,TOR,STL,Jose Berrios,Andre Pallante,32811,4109034
+2025-06-09,ATH,LAA,Jeffrey Springs,Yusei Kikuchi,35397,41415
+2025-06-09,LAD,SD,Dustin May,Nick Pivetta,40937,36071
+2025-06-09,SEA,ARI,Emerson Hancock,Merrill Kelly,4297897,32968

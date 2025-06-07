@@ -1,22 +1,6 @@
 date,team,opponent,home,starting_pitcher,opponent_pitcher,predicted_runs
-2025-06-06,PIT,PHI,1,Bailey Falter,Joe Ross,4.27
-2025-06-06,PHI,PIT,0,Joe Ross,Bailey Falter,2.14
-2025-06-06,NYY,BOS,1,Will Warren,Walker Buehler,2.5
-2025-06-06,BOS,NYY,0,Walker Buehler,Will Warren,3.23
-2025-06-06,DET,CHC,1,Tarik Skubal,Ben Brown,3.03
-2025-06-06,CHC,DET,0,Ben Brown,Tarik Skubal,2.92
-2025-06-06,CLE,HOU,1,Logan Allen,Colton Gordon,1.82
-2025-06-06,HOU,CLE,0,Colton Gordon,Logan Allen,4.56
-2025-06-06,STL,LAD,1,Sonny Gray,Justin Wrobleski,1.76
-2025-06-06,LAD,STL,0,Justin Wrobleski,Sonny Gray,1.31
-2025-06-06,COL,NYM,1,Antonio Senzatela,Kodai Senga,2.02
-2025-06-06,NYM,COL,0,Kodai Senga,Antonio Senzatela,3.98
-2025-06-06,LAA,SEA,1,Kyle Hendricks,Bryce Miller,4.43
-2025-06-06,SEA,LAA,0,Bryce Miller,Kyle Hendricks,2.18
-2025-06-06,ATH,BAL,1,JP Sears,Dean Kremer,2.51
-2025-06-06,BAL,ATH,0,Dean Kremer,JP Sears,2.41
-2025-06-07,DET,CHC,1,Keider Montero,Jameson Taillon,2.63
-2025-06-07,CHC,DET,0,Jameson Taillon,Keider Montero,2.14
+2025-06-07,DET,CHC,1,Tyler Holton,Jameson Taillon,2.23
+2025-06-07,CHC,DET,0,Jameson Taillon,Tyler Holton,7.62
 2025-06-07,MIN,TOR,1,Chris Paddack,Kevin Gausman,4.3
 2025-06-07,TOR,MIN,0,Kevin Gausman,Chris Paddack,4.3
 2025-06-07,STL,LAD,1,Erick Fedde,Yoshinobu Yamamoto,1.47
@@ -37,9 +21,15 @@ date,team,opponent,home,starting_pitcher,opponent_pitcher,predicted_runs
 2025-06-08,ARI,CIN,0,Zac Gallen,Brady Singer,2.95
 2025-06-08,DET,CHC,1,Jack Flaherty,Cade Horton,2.9
 2025-06-08,CHC,DET,0,Cade Horton,Jack Flaherty,2.38
-2025-06-08,CLE,HOU,1,Tanner Bibee,Lance McCullers Jr.,1.87
-2025-06-08,HOU,CLE,0,Lance McCullers Jr.,Tanner Bibee,3.37
 2025-06-08,MIN,TOR,1,Joe Ryan,Bowden Francis,4.79
 2025-06-08,TOR,MIN,0,Bowden Francis,Joe Ryan,4.38
 2025-06-08,LAA,SEA,1,Tyler Anderson,George Kirby,4.52
 2025-06-08,SEA,LAA,0,George Kirby,Tyler Anderson,2.16
+2025-06-09,CLE,CIN,1,Luis Ortiz,Wade Miley,1.71
+2025-06-09,CIN,CLE,0,Wade Miley,Luis Ortiz,1.73
+2025-06-09,MIL,ATL,1,Freddy Peralta,Chris Sale,2.26
+2025-06-09,ATL,MIL,0,Chris Sale,Freddy Peralta,3.65
+2025-06-09,LAA,ATH,1,Yusei Kikuchi,Jeffrey Springs,4.73
+2025-06-09,ATH,LAA,0,Jeffrey Springs,Yusei Kikuchi,2.31
+2025-06-09,ARI,SEA,1,Merrill Kelly,Emerson Hancock,2.25
+2025-06-09,SEA,ARI,0,Emerson Hancock,Merrill Kelly,1.75

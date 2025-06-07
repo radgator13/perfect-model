@@ -1,23 +1,57 @@
-﻿import streamlit as st
-import urllib.parse
+﻿import os
+import sys
+import platform
+import subprocess
 
-st.set_page_config(page_title="Pitcher Param Test", layout="wide")
+def list_files(startpath):
+    for root, dirs, files in os.walk(startpath):
+        level = root.replace(startpath, '').count(os.sep)
+        indent = '    ' * level
+        print(f"{indent}{os.path.basename(root)}/")
+        subindent = '    ' * (level + 1)
+        for f in files:
+            print(f"{subindent}{f}")
 
-st.markdown("## 🧪 Query Param Test")
+def get_git_info():
+    try:
+        branch = subprocess.check_output(["git", "branch", "--show-current"]).decode().strip()
+        latest_commit = subprocess.check_output(["git", "log", "-1", "--oneline"]).decode().strip()
+        return f"Git branch: {branch}\nLast commit: {latest_commit}"
+    except:
+        return "Not a Git repo or Git not installed."
 
-# Read param directly from the URL
-params = st.query_params
+def main():
+    print("📦 Project Environment Summary\n")
 
-if "pitcher" in params:
-    raw_value = params["pitcher"][0]
-    decoded_name = urllib.parse.unquote(raw_value)
+    # Python version
+    print(f"🐍 Python version: {platform.python_version()}")
 
-    st.markdown(f"**Raw param:** `{raw_value}`")
-    st.markdown(f"**Decoded name:** `{decoded_name}`")
-else:
-    st.info("No pitcher param found in URL.")
+    # OS info
+    print(f"🖥️ OS: {platform.system()} {platform.release()}")
 
-# Example link
-example_name = "Tarik Skubal"
-encoded = urllib.parse.quote(example_name)
-st.markdown(f"➡️ [Test link for {example_name}](?pitcher={encoded})")
+    # Virtual environment?
+    print(f"🔒 Virtualenv: {os.getenv('VIRTUAL_ENV', 'Not active')}")
+
+    # Requirements
+    print("\n📋 Dependencies:")
+    if os.path.exists("requirements.txt"):
+        with open("requirements.txt") as f:
+            for line in f:
+                print(f"  - {line.strip()}")
+    else:
+        print("  (requirements.txt not found)")
+
+    # .env or secrets
+    if os.path.exists(".env"):
+        print("\n🔑 .env file detected (not shown for security)")
+
+    # Project structure
+    print("\n📁 Project Structure:")
+    list_files(".")
+
+    # Git
+    print("\n🔧 Git Info:")
+    print(get_git_info())
+
+if __name__ == "__main__":
+    main()
