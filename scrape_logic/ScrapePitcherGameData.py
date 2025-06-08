@@ -73,6 +73,12 @@ try:
         # ✅ Remove repeated headers mid-table
         df = df[df["Rk"].astype(str).str.lower() != "rk"].reset_index(drop=True)
 
+        # ✅ Drop Unnamed columns that can cause column shift
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+
+        # ✅ Normalize the Date (remove things like " (2)")
+        df["Date"] = df["Date"].astype(str).str.extract(r"(\d{4}-\d{2}-\d{2})")
+
         all_rows.append(df)
         print(f"✅ Page {page_num}: {len(df)} clean rows")
 
@@ -93,6 +99,10 @@ finally:
 # === Process scraped rows
 if all_rows:
     scraped_df = pd.concat(all_rows, ignore_index=True)
+
+    # Optional: drop rows missing critical info
+    scraped_df = scraped_df.dropna(subset=["Player", "Date", "Team", "IP", "Result"])
+
     scraped_df.to_csv(output_csv, index=False)
     print(f"💾 Scraped {len(scraped_df)} rows to {output_csv}")
 

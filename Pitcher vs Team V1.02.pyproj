@@ -11,6 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Pitcher vs Team V1.02</Name>
     <RootNamespace>Pitcher vs Team V1.02</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
