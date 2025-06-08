@@ -45,58 +45,31 @@ else:
         f.write(timestamp_str)
     log_msg(f"📌 Updated timestamp in {last_updated_path}: {timestamp_str}")
 
-    # === Remote (GitHub Actions) check: skip if data is stale ===
-    if os.getenv("GITHUB_ACTIONS") == "true":
-        try:
-            log_msg("🤖 GitHub Actions: Checking for stale data before push...")
-            subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
+    # === Remote (GitHub Actions) check: skip timestamp logic, always force push ===
+if os.getenv("GITHUB_ACTIONS") == "true":
+    log_msg("🤖 GitHub Actions: Skipping timestamp check. Forcing push.")
 
-            with open(last_updated_path, "r") as f:
-                new_time = datetime.strptime(f.read().strip(), "%Y-%m-%d %H:%M:%S")
+# === Local or CI push ===
+log_msg("📡 Syncing changes to GitHub...")
 
-            result = subprocess.run(
-                ["git", "show", "origin/main:predictions/last_updated.txt"],
-                capture_output=True,
-                text=True
-            )
-            remote_time = datetime.strptime(result.stdout.strip(), "%Y-%m-%d %H:%M:%S")
+subprocess.run(["git", "add", "."], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-            if new_time <= remote_time:
-                log_msg(f"⚠️ Remote data is newer or equal (remote: {remote_time}, new: {new_time}). Skipping push.")
-                exit(0)
-            else:
-                log_msg(f"✅ This run is newer (new: {new_time} > remote: {remote_time}). Proceeding to push.")
+commit = subprocess.run(
+    ["git", "commit", "-m", "🔄 Auto-update: latest predictions and backfills"],
+    capture_output=True,
+    text=True
+)
 
-        except Exception as e:
-            log_msg("⚠️ Timestamp check failed. Proceeding to push just in case.")
-            log_msg(str(e))
+if "nothing to commit" not in commit.stdout:
+    log_msg("📦 Committing new changes...")
 
-    # === Local or approved push ===
-    log_msg("📡 Syncing changes to GitHub...")
+    # Force push to ensure local changes overwrite remote
+    push = subprocess.run(["git", "push", "--force", "origin", "main"])
 
-    subprocess.run(["git", "add", "."], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-    commit = subprocess.run(
-        ["git", "commit", "-m", "🔄 Auto-update: latest predictions and backfills"],
-        capture_output=True,
-        text=True
-    )
-
-    if "nothing to commit" not in commit.stdout:
-        log_msg("📦 Committing new changes...")
-
-        pull = subprocess.run(["git", "pull", "--rebase", "origin", "main"])
-        if pull.returncode == 0:
-            push = subprocess.run(["git", "push", "origin", "main"])
-            if push.returncode == 0:
-                log_msg("✅ Pushed to GitHub successfully.")
-            else:
-                log_msg("⚠️ Git push failed. Check remote settings or authentication.")
-        else:
-            log_msg("❌ Git pull failed. Resolve merge conflicts manually.")
+    if push.returncode == 0:
+        log_msg("✅ Force pushed to GitHub successfully.")
     else:
-        log_msg("✅ No changes to commit. Git push skipped.")
+        log_msg("⚠️ Git push failed. Check remote settings or authentication.")
+else:
+    log_msg("✅ No changes to commit. Git push skipped.")
 
-# === Final Summary Log ===
-print("\n📄 Execution Summary:")
-print("\n".join(log))
