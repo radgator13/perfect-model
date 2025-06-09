@@ -1,31 +1,35 @@
 date,team,opponent,home,starting_pitcher,opponent_pitcher,predicted_runs
-2025-06-08,DET,CHC,1,Jack Flaherty,Cade Horton,2.74
-2025-06-08,CHC,DET,0,Cade Horton,Jack Flaherty,2.31
-2025-06-08,MIN,TOR,1,Joe Ryan,Bowden Francis,7.1
-2025-06-08,TOR,MIN,0,Bowden Francis,Joe Ryan,7.33
-2025-06-08,COL,NYM,1,Chase Dollander,Tylor Megill,2.43
-2025-06-08,NYM,COL,0,Tylor Megill,Chase Dollander,5.66
-2025-06-08,ATH,BAL,1,Jacob Lopez,Tomoyuki Sugano,3.77
-2025-06-08,BAL,ATH,0,Tomoyuki Sugano,Jacob Lopez,2.42
-2025-06-08,LAA,SEA,1,Tyler Anderson,George Kirby,6.24
-2025-06-08,SEA,LAA,0,George Kirby,Tyler Anderson,6.32
 2025-06-09,CLE,CIN,1,Luis Ortiz,Wade Miley,2.2
 2025-06-09,CIN,CLE,0,Wade Miley,Luis Ortiz,2.38
-2025-06-09,PIT,MIA,1,Mike Burrows,Sandy Alcantara,2.02
-2025-06-09,MIA,PIT,0,Sandy Alcantara,Mike Burrows,1.33
 2025-06-09,MIL,ATL,1,Aaron Civale,Chris Sale,1.88
 2025-06-09,ATL,MIL,0,Chris Sale,Aaron Civale,2.1
-2025-06-09,LAA,ATH,1,Yusei Kikuchi,Jeffrey Springs,5.47
-2025-06-09,ATH,LAA,0,Jeffrey Springs,Yusei Kikuchi,5.31
+2025-06-09,LAA,ATH,1,Yusei Kikuchi,Jeffrey Springs,5.06
+2025-06-09,ATH,LAA,0,Jeffrey Springs,Yusei Kikuchi,10.21
 2025-06-10,BAL,DET,1,Cade Povich,Sawyer Gipson-Long,3.83
 2025-06-10,DET,BAL,0,Sawyer Gipson-Long,Cade Povich,2.08
 2025-06-10,CLE,CIN,1,Slade Cecconi,Andrew Abbott,1.51
 2025-06-10,CIN,CLE,0,Andrew Abbott,Slade Cecconi,2.62
+2025-06-10,PIT,MIA,1,Mitch Keller,Sandy Alcantara,1.87
+2025-06-10,MIA,PIT,0,Sandy Alcantara,Mitch Keller,2.77
+2025-06-10,PHI,CHC,1,Mick Abel,Colin Rea,2.44
+2025-06-10,CHC,PHI,0,Colin Rea,Mick Abel,1.88
 2025-06-10,MIL,ATL,1,Quinn Priester,Grant Holmes,2.96
 2025-06-10,ATL,MIL,0,Grant Holmes,Quinn Priester,1.8
-2025-06-10,MIN,TEX,1,Zebby Matthews,Tyler Mahle,2.78
-2025-06-10,TEX,MIN,0,Tyler Mahle,Zebby Matthews,2.07
 2025-06-10,STL,TOR,1,Miles Mikolas,Chris Bassitt,2.46
 2025-06-10,TOR,STL,0,Chris Bassitt,Miles Mikolas,4.8
-2025-06-10,HOU,CHW,1,Lance McCullers Jr.,Shane Smith,1.97
-2025-06-10,CHW,HOU,0,Shane Smith,Lance McCullers Jr.,2.56
+2025-06-10,HOU,CHW,1,Lance McCullers Jr.,Shane Smith,4.95
+2025-06-10,CHW,HOU,0,Shane Smith,Lance McCullers Jr.,2.9
+2025-06-11,PIT,MIA,1,Bailey Falter,Cal Quantrill,1.99
+2025-06-11,MIA,PIT,0,Cal Quantrill,Bailey Falter,1.47
+2025-06-11,CLE,CIN,1,Logan Allen,Nick Lodolo,1.35
+2025-06-11,CIN,CLE,0,Nick Lodolo,Logan Allen,2.22
+2025-06-11,MIL,ATL,1,Chad Patrick,Spencer Schwellenbach,2.23
+2025-06-11,ATL,MIL,0,Spencer Schwellenbach,Chad Patrick,1.79
+2025-06-11,LAA,ATH,1,Kyle Hendricks,JP Sears,5.23
+2025-06-11,ATH,LAA,0,JP Sears,Kyle Hendricks,5.08
+2025-06-11,BAL,DET,1,Zach Eflin,Casey Mize,3.57
+2025-06-11,DET,BAL,0,Casey Mize,Zach Eflin,2.06
+2025-06-11,MIN,TEX,1,David Festa,Jack Leiter,2.42
+2025-06-11,TEX,MIN,0,Jack Leiter,David Festa,3.18
+2025-06-11,HOU,CHW,1,Ryan Gusto,Sean Burke,3.64
+2025-06-11,CHW,HOU,0,Sean Burke,Ryan Gusto,4.6

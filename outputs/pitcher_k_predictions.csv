@@ -1,5 +1,4 @@
 date,team,opponent,starting_pitcher,predicted_ks
-2025-06-08,TEX,WSH,Jacob Latz,1.56
 2025-06-09,CLE,CIN,Luis Ortiz,6.01
 2025-06-09,ATH,LAA,Jeffrey Springs,4.66
 2025-06-09,SD,LAD,Nick Pivetta,6.24
@@ -8,12 +7,11 @@ date,team,opponent,starting_pitcher,predicted_ks
 2025-06-10,CLE,CIN,Slade Cecconi,3.02
 2025-06-10,PIT,MIA,Mitch Keller,2.73
 2025-06-10,CHC,PHI,Colin Rea,1.07
-2025-06-10,PHI,CHC,Jesus Luzardo,2.27
 2025-06-10,TB,BOS,Ryan Pepiot,5.95
 2025-06-10,BOS,TB,Lucas Giolito,1.61
 2025-06-10,ATL,MIL,Grant Holmes,5.79
 2025-06-10,MIL,ATL,Quinn Priester,2.86
-2025-06-10,MIN,TEX,Zebby Matthews,5.15
+2025-06-10,NYY,KC,Max Fried,5.7
 2025-06-10,TOR,STL,Chris Bassitt,6.28
 2025-06-10,SF,COL,Kyle Harrison,3.42
 2025-06-10,ATH,LAA,Mitch Spence,3.3
@@ -21,3 +19,26 @@ date,team,opponent,starting_pitcher,predicted_ks
 2025-06-10,SD,LAD,Dylan Cease,6.49
 2025-06-10,SEA,ARI,Bryan Woo,5.16
 2025-06-10,ARI,SEA,Brandon Pfaadt,0.83
+2025-06-11,MIA,PIT,Cal Quantrill,3.44
+2025-06-11,PIT,MIA,Bailey Falter,1.7
+2025-06-11,CHC,PHI,Ben Brown,7.85
+2025-06-11,PHI,CHC,Jesus Luzardo,2.27
+2025-06-11,CIN,CLE,Nick Lodolo,4.4
+2025-06-11,CLE,CIN,Logan Allen,2.05
+2025-06-11,ATL,MIL,Spencer Schwellenbach,6.31
+2025-06-11,MIL,ATL,Chad Patrick,6.22
+2025-06-11,STL,TOR,Matthew Liberatore,2.76
+2025-06-11,SEA,ARI,Bryce Miller,1.82
+2025-06-11,ATH,LAA,JP Sears,2.87
+2025-06-11,LAA,ATH,Kyle Hendricks,2.36
+2025-06-11,SD,LAD,Randy Vasquez,2.84
+2025-06-11,DET,BAL,Casey Mize,3.71
+2025-06-11,BAL,DET,Zach Eflin,6.64
+2025-06-11,TB,BOS,Zack Littell,5.73
+2025-06-11,BOS,TB,Walker Buehler,3.22
+2025-06-11,WSH,NYM,Jake Irvin,2.07
+2025-06-11,NYM,WSH,David Peterson,5.43
+2025-06-11,TEX,MIN,Jack Leiter,5.9
+2025-06-11,CHW,HOU,Sean Burke,4.75
+2025-06-11,SF,COL,Robbie Ray,9.0
+2025-06-11,COL,SF,Kyle Freeland,3.85

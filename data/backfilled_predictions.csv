@@ -1,13 +1,13 @@
 Date,Home_Team,Away_Team,Home_SP,Away_SP,Predicted_Home,Predicted_Away,Predicted_Total,Actual_Total,Home_R,Away_R
-2025-06-04,CIN,MIL,Andrew Abbott,Quinn Priester,4.36,1.62,5.98,10,1,9
-2025-06-04,MIA,COL,Cal Quantrill,Kyle Freeland,1.61,4.24,5.85,5,2,3
-2025-06-04,SFG,SDP,Kyle Harrison,Nick Pivetta,1.54,1.55,3.09,11,6,5
+2025-06-04,CIN,MIL,Andrew Abbott,Quinn Priester,3.52,1.55,5.07,10,1,9
+2025-06-04,MIA,COL,Cal Quantrill,Kyle Freeland,1.63,4.1,5.73,5,2,3
+2025-06-04,SFG,SDP,Kyle Harrison,Nick Pivetta,1.62,1.78,3.4,11,6,5
 2025-06-05,NYY,CLE,Max Fried,Slade Cecconi,1.54,1.29,2.83,4,4,0
 2025-06-05,PIT,HOU,Mitch Keller,Framber Valdez,1.6,1.25,2.85,10,2,8
 2025-06-05,SEA,BAL,Bryan Woo,Zach Eflin,1.61,7.01,8.62,7,3,4
 2025-06-05,SFG,SDP,Robbie Ray,Dylan Cease,4.87,3.11,7.98,5,3,2
 2025-06-05,TBR,TEX,Ryan Pepiot,Jack Leiter,3.88,1.05,4.93,7,4,3
-2025-06-05,WSN,CHC,Jake Irvin,Colin Rea,1.85,1.45,3.3,8,1,7
+2025-06-05,WSN,CHC,Jake Irvin,Colin Rea,1.82,1.45,3.27,8,1,7
 2025-06-07,CHW,KCR,Adrian Houser,Michael Wacha,4.06,1.56,5.62,5,4,1
 2025-06-07,CLE,HOU,Gavin Williams,Hunter Brown,2.26,4.54,6.8,8,3,5
 2025-06-07,COL,NYM,Germán Márquez,Clay Holmes,2.63,2.98,5.61,9,1,8
@@ -19,10 +19,18 @@ Date,Home_Team,Away_Team,Home_SP,Away_SP,Predicted_Home,Predicted_Away,Predicted
 2025-06-07,SFG,ATL,Logan Webb,Bryce Elder,3.57,4.3,7.87,5,3,2
 2025-06-07,STL,LAD,Erick Fedde,Yoshinobu Yamamoto,4.9,0.89,5.79,3,2,1
 2025-06-07,WSN,TEX,Mitchell Parker,Jacob deGrom,2.35,1.6,3.95,5,0,5
-2025-06-06,LAA,SEA,Kyle Hendricks,Bryce Miller,4.91,3.0,7.91,9,5,4
+2025-06-06,LAA,SEA,Kyle Hendricks,Bryce Miller,4.97,3.0,7.97,9,5,4
 2025-06-06,COL,NYM,Antonio Senzatela,Kodai Senga,5.23,4.24,9.47,6,2,4
 2025-06-06,DET,CHC,Tarik Skubal,Ben Brown,1.03,3.98,5.01,4,3,1
 2025-06-06,ATH,BAL,JP Sears,Dean Kremer,5.37,1.87,7.24,9,5,4
 2025-06-06,SFG,ATL,Hayden Birdsong,Spencer Schwellenbach,2.72,5.29,8.01,9,5,4
 2025-06-06,TBR,MIA,Zack Littell,Edward Cabrera,4.34,2.47,6.81,7,4,3
 2025-06-06,WSN,TEX,Michael Soroka,Patrick Corbin,1.54,1.1,2.64,2,2,0
+2025-06-08,LAA,SEA,Tyler Anderson,George Kirby,7.98,4.32,12.3,5,2,3
+2025-06-08,CIN,ARI,Brady Singer,Zac Gallen,5.4,1.58,6.98,6,4,2
+2025-06-08,DET,CHC,Jack Flaherty,Cade Horton,1.51,5.44,6.95,4,4,0
+2025-06-08,MIL,SDP,Freddy Peralta,Ryan Bergert,5.07,1.61,6.68,1,0,1
+2025-06-08,NYY,BOS,Carlos Rodón,Hunter Dobbins,4.99,8.66,13.65,18,7,11
+2025-06-08,ATH,BAL,Jacob Lopez,Tomoyuki Sugano,3.02,4.69,7.71,6,5,1
+2025-06-08,PIT,PHI,Paul Skenes,Cristopher Sánchez,2.0,1.75,3.75,3,2,1
+2025-06-08,SFG,ATL,Landen Roupp,Spencer Strider,4.84,1.56,6.4,7,4,3
