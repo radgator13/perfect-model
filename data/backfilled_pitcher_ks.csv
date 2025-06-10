@@ -1,6 +1,5 @@
 Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-07,CHW,KCR,Adrian Houser,6.26,6
-2025-06-04,CIN,MIL,Andrew Abbott,6.64,6
 2025-06-07,PIT,PHI,Andrew Heaney,4.67,5
 2025-06-06,COL,NYM,Antonio Senzatela,2.38,2
 2025-06-06,PIT,PHI,Bailey Falter,1.7,2
@@ -11,7 +10,6 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-07,ATL,SFG,Bryce Elder,8.74,12
 2025-06-06,SEA,LAA,Bryce Miller,2.0,2
 2025-06-08,CHC,DET,Cade Horton,5.15,6
-2025-06-04,MIA,COL,Cal Quantrill,3.61,2
 2025-06-08,NYY,BOS,Carlos Rodón,6.12,5
 2025-06-05,DET,CHW,Casey Mize,3.71,3
 2025-06-06,MIL,SDP,Chad Patrick,6.22,6
@@ -45,26 +43,23 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-07,TEX,WSN,Jacob deGrom,5.99,8
 2025-06-05,WSN,CHC,Jake Irvin,2.23,3
 2025-06-07,CHC,DET,Jameson Taillon,2.9,5
-2025-06-04,MIA,COL,Janson Junk,5.88,6
-2025-06-04,ATH,MIN,Jeffrey Springs,4.89,7
+2025-06-09,MIA,PIT,Janson Junk,3.72,1
+2025-06-09,ATH,LAA,Jeffrey Springs,5.82,8
 2025-06-08,MIN,TOR,Joe Ryan,5.73,6
 2025-06-07,MIL,SDP,Jose Quintana,4.1,4
-2025-06-04,LAA,BOS,José Soriano,3.37,3
 2025-06-07,DET,CHC,Keider Montero,3.46,4
 2025-06-07,TOR,MIN,Kevin Gausman,5.91,5
 2025-06-06,NYM,COL,Kodai Senga,6.25,6
-2025-06-04,COL,MIA,Kyle Freeland,3.65,4
-2025-06-04,SFG,SDP,Kyle Harrison,3.57,3
 2025-06-06,LAA,SEA,Kyle Hendricks,2.36,2
 2025-06-08,SFG,ATL,Landen Roupp,3.36,2
 2025-06-06,CLE,HOU,Logan Allen,2.05,2
 2025-06-07,SFG,ATL,Logan Webb,9.09,10
 2025-06-07,SEA,LAA,Luis Castillo,5.25,5
-2025-06-04,CLE,NYY,Luis Ortiz,5.68,7
+2025-06-09,CLE,CIN,Luis Ortiz,6.01,5
 2025-06-07,ATH,BAL,Luis Severino,2.13,5
 2025-06-05,STL,KCR,Matthew Liberatore,2.76,2
 2025-06-05,NYY,CLE,Max Fried,5.97,7
-2025-06-04,ARI,ATL,Merrill Kelly,7.83,8
+2025-06-09,ARI,SEA,Merrill Kelly,7.66,7
 2025-06-08,KCR,CHW,Michael Lorenzen,5.45,7
 2025-06-06,WSN,TEX,Michael Soroka,6.01,7
 2025-06-07,KCR,CHW,Michael Wacha,5.82,5
@@ -74,12 +69,11 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-07,WSN,TEX,Mitchell Parker,3.89,5
 2025-06-06,CIN,ARI,Nick Lodolo,4.66,4
 2025-06-07,CIN,ARI,Nick Martinez,5.14,6
-2025-06-04,SDP,SFG,Nick Pivetta,6.0,5
+2025-06-09,SDP,LAD,Nick Pivetta,5.6,3
 2025-06-05,KCR,STL,Noah Cameron,2.93,3
 2025-06-06,TEX,WSN,Patrick Corbin,1.96,2
 2025-06-08,NYM,COL,Paul Blackburn,2.99,3
 2025-06-08,PIT,PHI,Paul Skenes,6.43,7
-2025-06-04,MIL,CIN,Quinn Priester,2.72,4
 2025-06-06,SDP,MIL,Randy Vásquez,2.84,2
 2025-06-07,PHI,PIT,Ranger Suárez,2.89,5
 2025-06-05,SFG,SDP,Robbie Ray,9.2,9
@@ -97,7 +91,6 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-08,CLE,HOU,Tanner Bibee,6.37,6
 2025-06-06,DET,CHC,Tarik Skubal,4.4,6
 2025-06-08,BAL,ATH,Tomoyuki Sugano,3.08,2
-2025-06-04,LAD,NYM,Tony Gonsolin,5.76,6
 2025-06-08,WSN,TEX,Trevor Williams,2.75,2
 2025-06-08,LAA,SEA,Tyler Anderson,6.41,6
 2025-06-08,NYM,COL,Tylor Megill,5.96,5
@@ -106,4 +99,3 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-08,ARI,CIN,Zac Gallen,4.54,5
 2025-06-05,BAL,SEA,Zach Eflin,6.42,7
 2025-06-06,TBR,MIA,Zack Littell,5.78,4
-2025-06-04,MIN,ATH,Zebby Matthews,4.89,4
