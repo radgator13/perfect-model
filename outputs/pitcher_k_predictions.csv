@@ -8,6 +8,7 @@ date,team,opponent,starting_pitcher,predicted_ks
 2025-06-11,TOR,STL,Eric Lauer,1.93
 2025-06-11,ATH,LAA,JP Sears,2.87
 2025-06-11,LAA,ATH,Kyle Hendricks,2.36
+2025-06-11,LAD,SD,Ben Casparius,0.73
 2025-06-11,SD,LAD,Randy Vasquez,2.84
 2025-06-11,TB,BOS,Zack Littell,5.73
 2025-06-11,BOS,TB,Walker Buehler,3.22
@@ -47,7 +48,7 @@ date,team,opponent,starting_pitcher,predicted_ks
 2025-06-13,HOU,MIN,Colton Gordon,5.5
 2025-06-13,ATH,KC,Luis Severino,1.85
 2025-06-13,STL,MIL,Erick Fedde,2.91
-2025-06-13,MIL,STL,Jose Quintana,4.1
+2025-06-13,MIL,STL,Freddy Peralta,5.16
 2025-06-13,SD,ARI,Stephen Kolek,2.08
 2025-06-13,ARI,SD,Ryne Nelson,2.19
 2025-06-13,CLE,SEA,Gavin Williams,5.49

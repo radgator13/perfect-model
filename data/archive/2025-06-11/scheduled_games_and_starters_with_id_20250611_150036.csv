@@ -6,7 +6,7 @@ date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_
 2025-06-11,TOR,STL,Eric Lauer,Matthew Liberatore,39915,41173
 2025-06-11,SEA,ARI,Bryan Woo,Eduardo Rodriguez,4629089,32675
 2025-06-11,ATH,LAA,JP Sears,Kyle Hendricks,39818,33173
-2025-06-11,LAD,SD,Ben Casparius,Randy Vasquez,4326800,4722847
+2025-06-11,LAD,SD,Justin Wrobleski,Randy Vasquez,4417203,4722847
 2025-06-11,DET,BAL,Casey Mize,Zach Eflin,41167,32804
 2025-06-11,TB,BOS,Zack Littell,Walker Buehler,36052,39251
 2025-06-11,WSH,NYM,Jake Irvin,David Peterson,41290,40921
@@ -33,7 +33,7 @@ date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_
 2025-06-13,CHW,TEX,Adrian Houser,Jacob deGrom,32157,32796
 2025-06-13,MIN,HOU,Chris Paddack,Colton Gordon,35999,5133837
 2025-06-13,ATH,KC,Luis Severino,Cole Ragans,33263,41054
-2025-06-13,STL,MIL,Erick Fedde,Freddy Peralta,33793,39825
+2025-06-13,STL,MIL,Erick Fedde,Jose Quintana,33793,32106
 2025-06-13,SD,ARI,Stephen Kolek,Ryne Nelson,5190073,4916269
 2025-06-13,CLE,SEA,Gavin Williams,Luis Castillo,4345076,35124
 2025-06-13,SF,LAD,Logan Webb,Yoshinobu Yamamoto,41216,4872587

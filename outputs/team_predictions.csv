@@ -35,7 +35,7 @@ date,team,opponent,home,starting_pitcher,opponent_pitcher,predicted_runs,Over_3_
 2025-06-13,CHW,TEX,0,Adrian Houser,Jacob deGrom,2.09,0,0.19,0.81,0,0.07,0.93,0,0.12,0.88,0,0.05,0.95
 2025-06-13,HOU,MIN,1,Colton Gordon,Chris Paddack,1.86,0,0.17,0.83,0,0.04,0.96,0,0.07,0.93,0,0.05,0.95
 2025-06-13,MIN,HOU,0,Chris Paddack,Colton Gordon,0.36,0,0.48,0.52,0,0.29,0.71,0,0.16,0.84,0,0.08,0.92
-2025-06-13,MIL,STL,1,Jose Quintana,Erick Fedde,2.03,1,0.56,0.44,0,0.28,0.72,0,0.22,0.78,0,0.21,0.79
-2025-06-13,STL,MIL,0,Erick Fedde,Jose Quintana,3.98,0,0.37,0.63,0,0.19,0.81,0,0.09,0.91,0,0.06,0.94
+2025-06-13,MIL,STL,1,Freddy Peralta,Erick Fedde,3.01,0,0.38,0.62,0,0.24,0.76,0,0.19,0.81,0,0.18,0.82
+2025-06-13,STL,MIL,0,Erick Fedde,Freddy Peralta,3.98,0,0.38,0.62,0,0.13,0.87,0,0.09,0.91,0,0.07,0.93
 2025-06-13,SEA,CLE,1,Luis Castillo,Gavin Williams,2.62,0,0.21,0.79,0,0.09,0.91,0,0.02,0.98,0,0.02,0.98
 2025-06-13,CLE,SEA,0,Gavin Williams,Luis Castillo,0.41,0,0.27,0.73,0,0.21,0.79,0,0.21,0.79,0,0.09,0.91
