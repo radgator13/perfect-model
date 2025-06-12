@@ -1,8 +1,8 @@
 date,team,opponent,home,starting_pitcher,opponent_pitcher,predicted_runs,Over_3_5,Over_3_5_Prob,Under_3_5_Prob,Over_4_5,Over_4_5_Prob,Under_4_5_Prob,Over_5_5,Over_5_5_Prob,Under_5_5_Prob,Over_6_5,Over_6_5_Prob,Under_6_5_Prob
 2025-06-12,MIN,TEX,1,Bailey Ober,Patrick Corbin,1.85,0,0.49,0.51,0,0.45,0.55,0,0.5,0.5,0,0.37,0.63
 2025-06-12,TEX,MIN,0,Patrick Corbin,Bailey Ober,3.04,1,0.65,0.35,1,0.56,0.44,0,0.48,0.52,0,0.42,0.58
-2025-06-12,BAL,DET,1,Dean Kremer,Tarik Skubal,2.06,0,0.28,0.72,0,0.19,0.81,0,0.18,0.82,0,0.21,0.79
-2025-06-12,DET,BAL,0,Tarik Skubal,Dean Kremer,4.89,0,0.49,0.51,0,0.29,0.71,0,0.38,0.62,0,0.37,0.63
+2025-06-12,BAL,DET,1,Keegan Akin,Tarik Skubal,3.97,0,0.33,0.67,0,0.16,0.84,0,0.18,0.82,0,0.15,0.85
+2025-06-12,DET,BAL,0,Tarik Skubal,Keegan Akin,2.99,0,0.45,0.55,0,0.47,0.53,0,0.41,0.59,0,0.49,0.51
 2025-06-12,CHC,PIT,1,Jameson Taillon,Andrew Heaney,3.95,0,0.12,0.88,0,0.09,0.91,0,0.11,0.89,0,0.03,0.97
 2025-06-12,PIT,CHC,0,Andrew Heaney,Jameson Taillon,1.34,0,0.26,0.74,0,0.1,0.9,0,0.16,0.84,0,0.07,0.93
 2025-06-12,HOU,CHW,1,Framber Valdez,Davis Martin,3.98,0,0.47,0.53,0,0.41,0.59,0,0.35,0.65,0,0.37,0.63
