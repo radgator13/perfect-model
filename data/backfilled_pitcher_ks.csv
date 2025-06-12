@@ -22,14 +22,17 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-10,TOR,STL,Chris Bassitt,4.54,3
 2025-06-07,MIN,TOR,Chris Paddack,4.58,2
 2025-06-09,ATL,MIL,Chris Sale,10.62,11
+2025-06-11,NYY,KCR,Clarke Schmidt,7.62,7
 2025-06-07,NYM,COL,Clay Holmes,4.86,6
 2025-06-08,LAD,STL,Clayton Kershaw,5.52,7
 2025-06-10,CHC,PHI,Colin Rea,2.84,5
 2025-06-08,PHI,PIT,Cristopher Sánchez,7.36,9
+2025-06-11,MIN,TEX,David Festa,4.88,4
 2025-06-11,NYM,WSN,David Peterson,6.49,6
 2025-06-08,TBR,MIA,Drew Rasmussen,5.01,3
 2025-06-09,LAD,SDP,Dustin May,2.56,1
 2025-06-10,SDP,LAD,Dylan Cease,8.88,11
+2025-06-11,ARI,SEA,Eduardo Rodríguez,4.85,5
 2025-06-09,SEA,ARI,Emerson Hancock,3.75,3
 2025-06-11,TOR,STL,Eric Lauer,2.75,4
 2025-06-07,STL,LAD,Erick Fedde,3.0,2
@@ -58,6 +61,7 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-10,LAA,ATH,José Soriano,6.29,12
 2025-06-07,DET,CHC,Keider Montero,3.46,4
 2025-06-07,TOR,MIN,Kevin Gausman,5.91,5
+2025-06-11,KCR,NYY,Kris Bubic,4.93,3
 2025-06-11,COL,SFG,Kyle Freeland,4.94,5
 2025-06-10,SFG,COL,Kyle Harrison,4.92,6
 2025-06-11,LAA,ATH,Kyle Hendricks,2.69,3
@@ -94,6 +98,7 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-07,PHI,PIT,Ranger Suárez,2.89,5
 2025-06-11,SFG,COL,Robbie Ray,8.05,5
 2025-06-08,SDP,MIL,Ryan Bergert,3.34,4
+2025-06-11,HOU,CHW,Ryan Gusto,6.06,7
 2025-06-10,TBR,BOS,Ryan Pepiot,7.66,9
 2025-06-07,NYY,BOS,Ryan Yarbrough,3.16,3
 2025-06-10,MIA,PIT,Sandy Alcantara,5.54,6
