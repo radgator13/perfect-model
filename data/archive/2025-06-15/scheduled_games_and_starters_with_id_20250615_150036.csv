@@ -1,6 +1,6 @@
 date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_id
-2025-06-15,CIN,DET,Wade Miley,Tyler Holton,,3983833
-2025-06-15,LAA,BAL,Yusei Kikuchi,Scott Blewett,41415,33816
+2025-06-15,CIN,DET,Wade Miley,Sawyer Gipson-Long,,
+2025-06-15,LAA,BAL,Yusei Kikuchi,Cade Povich,41415,5085743
 2025-06-15,COL,ATL,Austin Gomber,Grant Holmes,,33840
 2025-06-15,MIA,WSH,Eury Perez,MacKenzie Gore,,39636
 2025-06-15,NYY,BOS,Max Fried,Brayan Bello,32685,4720856
@@ -15,7 +15,7 @@ date,away_team,home_team,away_pitcher,home_pitcher,away_pitcher_id,home_pitcher_
 2025-06-15,SD,ARI,Nick Pivetta,Merrill Kelly,36071,32968
 2025-06-15,SF,LAD,Kyle Harrison,Dustin May,4683375,40937
 2025-06-16,PHI,MIA,Mick Abel,Sandy Alcantara,4718970,35241
-2025-06-16,COL,WSH,Carson Palmquist,Jake Irvin,4621424,41290
+2025-06-16,COL,WSH,Kyle Freeland,Jake Irvin,33839,41290
 2025-06-16,LAA,NYY,Jose Soriano,Clarke Schmidt,40973,41085
 2025-06-16,BAL,TB,Zach Eflin,Ryan Pepiot,32804,4208281
 2025-06-16,BOS,SEA,Lucas Giolito,Undecided,32697,
