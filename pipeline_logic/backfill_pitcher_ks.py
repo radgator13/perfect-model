@@ -1,4 +1,4 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
 import joblib
 import os
@@ -71,4 +71,4 @@ backfill_df = backfill_df.drop_duplicates(subset=["Date", "Pitcher"])
 # === Save
 os.makedirs("data", exist_ok=True)
 backfill_df.to_csv("data/backfilled_pitcher_ks.csv", index=False)
-print("✅ Backfilled pitcher K predictions saved to data/backfilled_pitcher_ks.csv")
+print(" Backfilled pitcher K predictions saved to data/backfilled_pitcher_ks.csv")

@@ -1,4 +1,4 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
@@ -35,13 +35,13 @@ models = {
 
 rmse_results = {}
 
-print("\n✅ Training models and evaluating on TEST set...")
+print("\n Training models and evaluating on TEST set...")
 for name, model in models.items():
     model.fit(X_train, y_train)
     preds = model.predict(X_test)
     rmse = np.sqrt(mean_squared_error(y_test, preds))
     rmse_results[name] = rmse
-    print(f"✅ {name}: RMSE = {rmse:.3f}")
+    print(f" {name}: RMSE = {rmse:.3f}")
 
 # === Pick best ===
 best_model_name = min(rmse_results, key=rmse_results.get)
@@ -50,7 +50,7 @@ best_model = models[best_model_name]
 # === Save best model ===
 os.makedirs("models", exist_ok=True)
 joblib.dump(best_model, "models/final_team_model.joblib")
-print(f"\n🏆 Saved best model ({best_model_name}) to models/final_team_model.joblib")
+print(f"\n Saved best model ({best_model_name}) to models/final_team_model.joblib")
 from sklearn.model_selection import cross_val_score, KFold
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -59,7 +59,7 @@ import seaborn as sns
 best_model.fit(X, y)
 
 # === K-Fold Cross-Validation on Full Dataset
-print("\n🔁 K-Fold Cross-Validation (5-fold):")
+print("\n K-Fold Cross-Validation (5-fold):")
 cv_scores = cross_val_score(best_model, X, y, cv=5, scoring='neg_root_mean_squared_error')
 cv_rmse = -cv_scores
 print(f"Fold RMSEs: {np.round(cv_rmse, 4)}")
@@ -77,8 +77,8 @@ if hasattr(best_model, "feature_importances_"):
 
     plt.figure(figsize=(10, 6))
     sns.barplot(x="Importance", y="Feature", data=fi_df, palette="viridis")
-    plt.title("🔍 Feature Importance (Best Model)")
+    plt.title(" Feature Importance (Best Model)")
     plt.tight_layout()
     plt.show()
 else:
-    print("⚠️ This model does not support feature_importances_")
+    print(" This model does not support feature_importances_")

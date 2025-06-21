@@ -1,4 +1,4 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
 import joblib
 import os
@@ -29,7 +29,7 @@ def process_pitcher(pitcher_name, game_date, team, opponent, is_home):
     history = history.sort_values("Date").tail(3)
 
     if len(history) < 3:
-        print(f"⚠️ Skipping {pitcher_name_clean}: only {len(history)} appearances before {game_date.date()}")
+        print(f" Skipping {pitcher_name_clean}: only {len(history)} appearances before {game_date.date()}")
         return
 
     features = {
@@ -51,7 +51,7 @@ def process_pitcher(pitcher_name, game_date, team, opponent, is_home):
         "starting_pitcher": pitcher_name_clean,
         "predicted_ks": round(predicted_ks, 2)
     })
-    print(f"✅ Predicted Ks for {pitcher_name_clean}: {round(predicted_ks, 2)}")
+    print(f" Predicted Ks for {pitcher_name_clean}: {round(predicted_ks, 2)}")
 
 # === Process all games
 for _, row in games_df.iterrows():
@@ -79,4 +79,4 @@ for _, row in games_df.iterrows():
 output_df = pd.DataFrame(pred_rows)
 os.makedirs("outputs", exist_ok=True)
 output_df.to_csv("outputs/pitcher_k_predictions.csv", index=False)
-print(f"\n✅ Saved {len(output_df)} predictions to outputs/pitcher_k_predictions.csv")
+print(f"\n Saved {len(output_df)} predictions to outputs/pitcher_k_predictions.csv")

@@ -1,17 +1,17 @@
-﻿import pandas as pd
+import pandas as pd
 import numpy as np
 from unidecode import unidecode
 
-print("🚀 Starting script...")
+print(" Starting script...")
 
 # === Load Data ===
 pitcher_df = pd.read_csv("data/Stathead_2025_Pitcher_Master.csv")
 batting_df = pd.read_csv("data/Stathead_2025_TeamBatting_Master.csv")
 team_pitching_df = pd.read_csv("data/Stathead_2025_TeamPitching_Master.csv")
 
-print(f"✅ Loaded pitcher_df: {len(pitcher_df)} rows")
-print(f"✅ Loaded batting_df: {len(batting_df)} rows")
-print(f"✅ Loaded team_pitching_df: {len(team_pitching_df)} rows")
+print(f" Loaded pitcher_df: {len(pitcher_df)} rows")
+print(f" Loaded batting_df: {len(batting_df)} rows")
+print(f" Loaded team_pitching_df: {len(team_pitching_df)} rows")
 
 # === Clean & Parse Dates ===
 pitcher_df["Date"] = pd.to_datetime(pitcher_df["Date"].astype(str).str.extract(r"^(\d{4}-\d{2}-\d{2})")[0])
@@ -27,7 +27,7 @@ starters = pitcher_df[pitcher_df["Is_SP"]].copy()
 starters = starters.sort_values("BF", ascending=False).dropna(subset=["BF"])
 starters = starters.groupby(["Date", "Team"]).head(1)
 
-print(f"✅ Found {len(starters)} starting pitcher rows")
+print(f" Found {len(starters)} starting pitcher rows")
 
 # === Get SP Rolling Stats ===
 def rolling_pitcher_stats(df, window=3):
@@ -52,7 +52,7 @@ def rolling_pitcher_stats(df, window=3):
 
 sp_rolling = rolling_pitcher_stats(pitcher_df)
 
-print(f"✅ sp_rolling generated: {len(sp_rolling)} rows")
+print(f" sp_rolling generated: {len(sp_rolling)} rows")
 
 
 # === Normalize names for merge
@@ -63,10 +63,10 @@ starters["Player"] = starters["Player"].apply(normalize_name)
 sp_rolling["Player"] = sp_rolling["Player"].apply(normalize_name)
 
 # === DEBUG: show sample merge keys
-print("🔍 Starter Info Keys:")
+print(" Starter Info Keys:")
 print(starters[["Player", "Date"]].drop_duplicates().head())
 
-print("🔍 Rolling Stats Keys:")
+print(" Rolling Stats Keys:")
 print(sp_rolling[["Player", "Date"]].drop_duplicates().head())
 
 # === Batting Rolling
@@ -78,7 +78,7 @@ batting_rolling = batting_df.groupby("Team").rolling(3, on="Date").agg({
     "Runs": "mean", "OBP": "mean"
 }).reset_index().rename(columns={"Runs": "Runs_avg3", "OBP": "OBP_avg3"})
 
-print(f"📊 Team batting rolling: {len(batting_rolling)} rows")
+print(f" Team batting rolling: {len(batting_rolling)} rows")
 
 # === Team Pitching Rolling
 team_pitching_df["H"] = pd.to_numeric(team_pitching_df["H"], errors="coerce").fillna(0)
@@ -93,11 +93,11 @@ pitching_rolling = team_pitching_df.sort_values(["Team", "Date"]).groupby("Team"
     "ER": "mean", "WHIP": "mean"
 }).reset_index().rename(columns={"ER": "Team_ER_avg3", "WHIP": "Team_WHIP_avg3"})
 
-print(f"📉 Opponent team pitching rolling: {len(pitching_rolling)} rows")
+print(f" Opponent team pitching rolling: {len(pitching_rolling)} rows")
 
 # === Build Dataset
 final_df = batting_df[["Date", "Team", "Opp", "Runs"]].copy()
-print("🔗 Initial team-game base:", len(final_df))
+print(" Initial team-game base:", len(final_df))
 
 final_df = final_df.merge(batting_rolling[["Team", "Date", "Runs_avg3", "OBP_avg3"]], on=["Team", "Date"], how="left")
 final_df = final_df.merge(pitching_rolling.rename(columns={"Team": "Opp"}), on=["Opp", "Date"], how="left")
@@ -140,15 +140,15 @@ final_df.rename(columns={
 }, inplace=True)
 
 # === Final Checks
-print("📋 Columns before dropna:", final_df.columns.tolist())
-print("❓ Null counts before dropna:\n", final_df[[
+print(" Columns before dropna:", final_df.columns.tolist())
+print(" Null counts before dropna:\n", final_df[[
     "Runs_avg3", "OBP_avg3", "Team_ER_avg3",
     "SP_ERA_3g", "SP_IP",
     "Opp_SP_ERA_3g", "Opp_SP_IP",
     "Home"
 ]].isna().sum())
 
-print("📊 Row count before dropna:", len(final_df))
+print(" Row count before dropna:", len(final_df))
 final_df.dropna(subset=[
     "Runs_avg3", "OBP_avg3", "Team_ER_avg3",
     "SP_ERA_3g", "SP_IP",
@@ -156,11 +156,11 @@ final_df.dropna(subset=[
     "Home"
 ], inplace=True)
 
-print("✅ Final dataset row count:", len(final_df))
+print(" Final dataset row count:", len(final_df))
 print("🧪 Sample with Opponent SP + Home flag:\n", final_df[[
     "Date", "Team", "Opp", "Home", "Opp_SP_Name", "Opp_SP_ERA_3g", "Opp_SP_IP"
 ]].head())
 
 # === Export
 final_df.to_csv("data/team_run_prediction_dataset.csv", index=False)
-print("✅ Dataset exported to 'data/team_run_prediction_dataset.csv'")
+print(" Dataset exported to 'data/team_run_prediction_dataset.csv'")
