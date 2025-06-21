@@ -9,6 +9,7 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-19,PIT,DET,Andrew Heaney,5.02,2
 2025-06-12,COL,SFG,Antonio Senzatela,2.5,2
 2025-06-17,COL,WSN,Antonio Senzatela,1.72,0
+2025-06-20,COL,ARI,Austin Gomber,0.75,0
 2025-06-11,PIT,MIA,Bailey Falter,2.08,3
 2025-06-17,PIT,DET,Bailey Falter,2.99,4
 2025-06-12,MIN,TEX,Bailey Ober,3.64,3
@@ -104,6 +105,7 @@ Date,Team,Opponent,Pitcher,Predicted_Ks,Actual_Ks
 2025-06-19,TEX,KCR,Jacob Latz,1.04,0
 2025-06-14,ATH,KCR,Jacob Lopez,8.42,9
 2025-06-19,ATH,HOU,Jacob Lopez,7.84,9
+2025-06-20,MIL,MIN,Jacob Misiorowski,6.22,6
 2025-06-14,TEX,CHW,Jacob deGrom,6.75,6
 2025-06-20,TEX,PIT,Jacob deGrom,8.27,7
 2025-06-11,WSN,NYM,Jake Irvin,2.44,4
